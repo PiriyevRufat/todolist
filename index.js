@@ -19,8 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
             li.querySelector('.fa-trash-can').addEventListener('click', deleteTodo);
         }
     }
-
-
     function completeTodo() {
         const checkbox = this;
         const todoItem = checkbox.parentElement;
