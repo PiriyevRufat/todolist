@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(120,229,215);
+    background: linear-gradient(110deg, rgba(120,229,215,1) 0%, rgba(156,177,229,1) 96%);
+}
+.container {
+    text-align: center;
+}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+}
+.adder{
+    display: flex;
+    gap: 5px;
+}
+.adder input{
+    border-radius: 5px;
+}
+.adder button{
+    background-color: #0F9AED;
+    border: none;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.todoli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todoli li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    width: 270px;
+    position: relative;
+}
+.todoli li p{
+    margin-right: 90px;
+}
+.todoli li div{
+    background: red;
+    color: white;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0px 0px 4px;
+}
+.todoli li div i{
+    background: red;
+    color: black;
+}
+.completed {
+    text-decoration: line-through;
+}
+.todoli li.hidden {
+    display: none;
+}
